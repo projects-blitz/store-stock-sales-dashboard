@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Store Stock & Sales Dashboard</title>
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="./styles.css"
+    />
+  </head>
+
+  <body>
+    <!-- ===== HEADER ===== -->
+    <header>
+      <h1>Dashboard de Stock y Ventas</h1>
+    </header>
+
+    <!-- ===== RESUMEN ===== -->
+    <section id="resumen">
+      <h2>Resumen General</h2>
+
+      <div class="resumen-item">
+        <p>Total productos:</p>
+        <span id="total-productos">--</span>
+      </div>
+
+      <div class="resumen-item">
+        <p>Stock total:</p>
+        <span id="stock-total">--</span>
+      </div>
+
+      <div class="resumen-item">
+        <p>Total vendido:</p>
+        <span id="total-vendido">--</span>
+      </div>
+    </section>
+
+    <!-- ===== FILTROS ===== -->
+    <section id="filtros">
+      <h2>Filtros</h2>
+
+      <label for="filtro-categoria">Categoría:</label>
+      <select id="filtro-categoria">
+        <option value="">Todas</option>
+      </select>
+
+      <label for="filtro-fecha">Fecha:</label>
+      <select id="filtro-fecha">
+        <option value="">Todas</option>
+      </select>
+    </section>
+
+    <!-- ===== GRAFICOS ===== -->
+    <section id="graficos">
+      <div class="grafico">
+        <h3>Ventas por producto</h3>
+        <canvas id="graficoVentas"></canvas>
+      </div>
+
+      <div class="grafico">
+        <h3>Distribución por categoría</h3>
+        <canvas id="graficoCategorias"></canvas>
+      </div>
+    </section>
+
+    <!-- ===== TABLA ===== -->
+    <section id="tabla">
+      <h2>Productos</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Categoría</th>
+            <th>Precio</th>
+            <th>Stock</th>
+            <th>Vendido</th>
+          </tr>
+        </thead>
+
+        <tbody id="cuerpo-tabla"></tbody>
+      </table>
+    </section>
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- JS -->
+    <script src="./main.js"></script>
+  </body>
+</html>
+``
