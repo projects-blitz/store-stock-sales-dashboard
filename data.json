@@ -1,0 +1,51 @@
+[
+  {
+    "producto": "Coca Cola 500ml",
+    "categoria": "Bebidas",
+    "precio": 2.50,
+    "stock": 100,
+    "vendido": 5
+  },
+  {
+    "producto": "Agua San Luis 625ml",
+    "categoria": "Bebidas",
+    "precio": 1.20,
+    "stock": 150,
+    "vendido": 0
+  },
+  {
+    "producto": "Papas Lays",
+    "categoria": "Snacks",
+    "precio": 1.80,
+    "stock": 60,
+    "vendido": 3
+  },
+  {
+    "producto": "Galletas Oreo",
+    "categoria": "Snacks",
+    "precio": 2.00,
+    "stock": 50,
+    "vendido": 2
+  },
+  {
+    "producto": "Detergente Ariel",
+    "categoria": "Aseo",
+    "precio": 8.50,
+    "stock": 30,
+    "vendido": 0
+  },
+  {
+    "producto": "Leche Gloria",
+    "categoria": "Lácteos",
+    "precio": 3.20,
+    "stock": 70,
+    "vendido": 1
+  },
+  {
+    "producto": "Arroz 1kg",
+    "categoria": "Abarrotes",
+    "precio": 4.00,
+    "stock": 90,
+    "vendido": 2
+  }
+]
